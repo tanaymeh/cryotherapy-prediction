@@ -6,7 +6,7 @@ from keras.layers import Dense
 from keras.models import Sequential
 from sklearn.model_selection import train_test_split
 
-data = pd.read_excel('Desktop/datasets/Cryotherapy.xlsx')
+data = pd.read_excel('Cryotherapy.xlsx')
 
 X = data.iloc[:,:6]
 Y = data.iloc[:,-1]
